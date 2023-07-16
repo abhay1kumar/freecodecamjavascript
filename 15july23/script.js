@@ -75,36 +75,3 @@ function makeList(arr) {
 const failuresList = makeList(result.failure);
 
 console.log(failuresList)
-
-
-//6. Write Concise Object Literal Declarations Using Object Property Shorthand
-
-const createPerson = (name, age, gender) => ({name, age, gender})
-// {
-  // Only change code below this line
-  // return {
-  //   name: name,
-  //   age: age,
-  //   gender: gender
-  // };
-  // Only change code above this line
-// };
-
-
-
-//7. Write Concise Declarative Functions with ES6
-
-// Only change code below this line
-const bicycle = {
-  gear: 2,
-  setGear(newGear) {
-    this.gear = newGear;
-  }
-};
-// Only change code above this line
-bicycle.setGear(3);
-console.log(bicycle.gear);
-
-
-
-//8. Use class Syntax to Define a Constructor Function
